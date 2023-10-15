@@ -1,5 +1,5 @@
 def calculate_grade(score):
-    if 95 <= score <= 100:
+    if 90 <= score <= 100:
         return "A"
     elif 80 <= score < 90:
         return "B"
@@ -10,7 +10,7 @@ def calculate_grade(score):
     else:
         return "F"
 
-# Example scores
+# Example scores (adjusted to be in the range [0, 100])
 scores = [85, 92, 78, 60, 45, 35]
 
 # Calculate and print grades
