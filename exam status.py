@@ -1,7 +1,7 @@
-index=int(input("input index"))
-score=int("score")
- if score>=50:
-     print("index:", "pass")
-else:
-print("index:" , "score")
+index = int(input("Enter index: "))
+score = int(input("Enter score: "))
 
+if score >= 50:
+    print("index:", index, "pass")
+else:
+    print("index:", index, "score:", score)
